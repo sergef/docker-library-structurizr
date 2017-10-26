@@ -7,7 +7,7 @@ Get an on-premises installation license https://structurizr.com/user/download.
 Run the image
 
 ```
-docker run docker run --rm -it -p 80:80 \
+docker run --rm -it -p 80:80 \
   -e LICENSE=<paste-your-license-here> \
   sergef/docker-library-structurizr
 ```
